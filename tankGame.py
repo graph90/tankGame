@@ -128,7 +128,7 @@ while True:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
                 player_bullet_list.append([player_x + PLAYER_SIZE, player_y + PLAYER_SIZE // 2])
-                create_particles(player_x + PLAYER_SIZE, player_y + PLAYER_SIZE // 2, (255, 165, 0))  # Create orange particles when bullet is launched
+                create_particles(player_x + PLAYER_SIZE, player_y + PLAYER_SIZE // 2, (255, 165, 0))
             elif event.key == pygame.K_p:
                 paused = not paused
             elif event.key == pygame.K_q:
